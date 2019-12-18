@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        *{
+            box-sizing: border-box;
+        }
+        body{
+            margin:0;
+        }
+    .left{
+        float:left;
+    }
+    .right{
+        float:right;
+    }
+    .clear-fix:after{
+        content: "";
+        display: block;
+        clear:both;
+    }
+    .div-1,.div-2{
+        width:50%;
+    }
+    .div-1{
+        background-color: aqua;
+    }
+    .div-2{
+        background-color: aquamarine;
+    }
+    </style>
+</head>
+<body>
+    <div class="container clear-fix">
+        <div class="div-1 left">
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Suscipit corrupti sunt mollitia quisquam fuga esse neque quae veritatis iure modi ea odio quis dignissimos culpa quibusdam impedit, exercitationem illo soluta?Tenetur nobis aspernatur dignissimos pariatur aperiam possimus nesciunt itaque cumque maxime impedit in enim tempore sint velit hic deleniti accusamus earum, iusto, atque esse. Commodi sequi illum maxime porro repellat.</p>
+        </div>
+        <div class="div-2 right">
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt tenetur exercitationem totam laudantium doloribus numquam labore natus? Dicta dignissimos labore eum quaerat ipsum! Praesentium vel odio cumque nam ducimus autem!Distinctio dolorum quasi nisi harum? Amet est officiis voluptatum aperiam deserunt animi, voluptatibus quis molestiae odit dicta, minus quidem quae? Fuga accusamus nobis iure dicta dolorem iste adipisci aliquam! Sit.
+            </p>
+        </div>
+    </div>
+</body>
+</html>
